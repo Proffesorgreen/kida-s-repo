@@ -1,0 +1,1 @@
+This is my first repository i created in GDSC study session
