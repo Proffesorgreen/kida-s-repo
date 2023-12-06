@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #todoList {
+        max-width: 400px;
+        margin: 20px auto;
+      }
+      #taskInput {
+        width: 70%;
+        padding: 8px;
+      }
+      #addButton {
+        width: 30%;
+        padding: 8px;
+        cursor: pointer;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      .deleteButton {
+        background-color: #f44336;
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="todoList">
+      <h2>To-Do List</h2>
+      <lable for="taskInput">ADD TASK</lable>
+      <input type="text" id="taskInput" placeholder="New task..." />
+      <button onclick="addTask()" id="addButton">Add</button>
+      <ul id="tasks"></ul>
+    </div>
+    <script>
+      function addTask() {
+        var taskInput = document.getElementById("taskInput");
+        var taskText = taskInput.value;
+        if (taskText !== "") {
+          var tasksList = document.getElementById("tasks");
+          var listItem = document.createElement("li");
+          listItem.innerHTML = taskText;
+          var deleteButton = document.createElement("button");
+          deleteButton.innerHTML = "Delete";
+          deleteButton.className = "deleteButton";
+          deleteButton.onclick = function () {
+            tasksList.removeChild(listItem);
+          };
+          listItem.appendChild(deleteButton);
+          tasksList.appendChild(listItem);
+          taskInput.value = "";
+        }
+      }
+    </script>
+  </body>
+</html>
