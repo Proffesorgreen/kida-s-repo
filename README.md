@@ -1,1 +1,1 @@
-This is my first repository i created in GDSC study session
+This is my repository i created in GDSC study session
