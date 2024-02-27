@@ -1,0 +1,32 @@
+img {
+  width: 250;
+  height: 150px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 3px 10px -2px black;
+  background-color: white;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.nav-menu hr {
+  color: red;
+  border-radius: 10px;
+  width: 80%;
+}
