@@ -1,0 +1,86 @@
+.single-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 15px -2px black;
+  border-radius: 20px;
+}
+
+.single-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px -2px black;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.single-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.single-info h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edit-remove button {
+  width: 150px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 2px -2px black;
+  border-radius: 8px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.edit-remove button:hover {
+  background-color: darkgray;
+}
+
+.edit-remove {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  float: right;
+}
+
+.single-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.single-author {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(202, 174, 12);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.single-description {
+  font-size: 20px;
+  color: #444;
+  padding: 10px 20px 10px 30px;
+}

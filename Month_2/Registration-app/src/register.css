@@ -1,0 +1,74 @@
+.register-menu {
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  height: 100%;
+  background-image: url("./pexels-eberhard-grossgasteiger-1287145.jpg");
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  color: white;
+  padding-bottom: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.gender {
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  align-items: flex-end;
+}
+
+.gender label {
+  padding-bottom: 0px;
+}
+
+select{
+    width: 20%;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-left: 20px;
+    color: darkgray;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.terms{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.first :focus{
+    border: none !important;
+}

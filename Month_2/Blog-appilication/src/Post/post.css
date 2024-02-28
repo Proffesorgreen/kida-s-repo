@@ -1,0 +1,53 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  box-shadow: 0 2px 15px -2px black;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.post-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.post-genere {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  color: darkkhaki;
+}
+
+.post-genere span {
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.post-date {
+  font-style: italic;
+  font-family: Trebuchet MS;
+}
+
+.post-description {
+  padding: 10px 20px 10px 20px;
+}

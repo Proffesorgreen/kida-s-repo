@@ -1,0 +1,27 @@
+/* .search-field{
+    height: 50px;
+    width: 300px;
+    border: 2px groove black;
+    border-radius: 20px;
+    margin: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 150px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.home-container{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
