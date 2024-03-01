@@ -1,0 +1,98 @@
+.container {
+  box-shadow: 0 5px 10px -2px black;
+  margin-bottom: 0px;
+}
+.section {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(119, 139, 119);
+  margin-bottom: 140px;
+  box-shadow: 0 5px 10px -2px black;
+}
+
+.section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.home-par {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  width: 500px;
+  text-wrap: break-word;
+  padding-left: 450px;
+}
+.group1 {
+  background-color: darkgray;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 140px;
+  box-shadow: 0 5px 10px -2px black;
+}
+
+.group1 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.group2 {
+  background-color: darkgray;
+  width: 250px;
+  height: 400px;
+  margin-bottom: 150px;
+  box-shadow: 0 5px 10px -2px black;
+}
+
+.group2 img {
+  width: 250px;
+  height: 400px;
+}
+
+.parent1 {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+  margin-bottom: 40px;
+  padding-left: 270px;
+}
+
+.parent2 {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  gap: 30px;
+  padding-left: 270px;
+}
+
+button {
+  background-color: darkgrey;
+  border: 1px groove;
+  margin-left: 575px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 1000;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: 0 5px 10px -2px black;
+}
+button:hover {
+  background-color: aliceblue;
+  transition: background-color 0.3s ease;
+}
