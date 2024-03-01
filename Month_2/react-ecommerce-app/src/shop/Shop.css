@@ -48,3 +48,10 @@
   height: 300px;
 }
 
+.shop-content{
+  margin-bottom: 50px;
+}
+
+.shop-content h1{
+  text-align: center;
+}

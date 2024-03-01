@@ -6,6 +6,7 @@ import logo_2 from "../../public/images/jewellery-image-3.jpg";
 import logo_3 from "../../public/images/furniture-image_3.jpg";
 import logo_4 from "../../public/images/electronics-image_2.jpg";
 import logo_5 from "./wild forest copy.jpg";
+import { Link } from "react-router-dom";
 
 function Bought_items() {
   const confirmPurchase = () => {
@@ -36,7 +37,12 @@ function Bought_items() {
         </div>
       </div>
       <div className="confirm">
-        <button onClick={confirmPurchase}>Confirm Purchase</button>
+        <button>
+          {" "}
+          <Link to="/total" style={{ textDecoration: "none", }}>
+            Confirm Purchase
+          </Link>
+        </button>
       </div>
     </div>
   );

@@ -68,7 +68,13 @@ function Cart() {
               <span>Total</span>
               <span>$188</span>
             </p>
-            <button>Continue to checkout</button>
+            <button>
+              {/* {" "}
+              <Link to="/total" style={{ textDecoration: "none" }}>
+               
+              </Link> */}
+              Continue to checkout
+            </button>
           </div>
         </div>
       </div>

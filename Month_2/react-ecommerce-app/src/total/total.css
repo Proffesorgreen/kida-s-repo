@@ -1,0 +1,22 @@
+.total-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 10px -2px black;
+  margin-bottom: 10px;
+}
+
+.total-menu p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.total-menu h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
